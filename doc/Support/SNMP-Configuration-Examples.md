@@ -220,3 +220,13 @@ service snmpd restart
 9. In "Accepted community name" click "Add" to add your community string and permission
 10. In "Accept SNMP packets from these hosts" click "Add" and add your LibreNMS server IP address
 11. Validate change by clicking "Apply"
+
+### Windows Client
+
+Integrate Windows client with SNMP v3 in LibreNMS:
+
+1. Look for the respective .exe file or zip files in downloads section of NET_SNMP. I needed x64 version (doesn't really matter as once can use x86 file for both 32-bit/64-bit) so I downloaded [net-snmp-5.5-2.x64.exe](https://sourceforge.net/projects/net-snmp/files/net-snmp%20binaries/5.5-binaries/)
+2. Install [Net-SNMP1](https://www.netadmintools.com/art487.html)
+3. Configure [Net-SNMP2](https://www.netadmintools.com/art488.html)
+
+Please note: You should have admin rights for installation process. Also, click on the install and configure links which redirects you to a page where explanation is given in detail.
